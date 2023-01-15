@@ -345,21 +345,3 @@
     height: 70px;
     margin: 20px;
 }
-.hide{
-    visibility: hidden;
-}
-
-/* media query */
-@media only screen and (max-width: 600px) {
-    .testimonials {
-        display: flex;
-        flex-direction: column;
-       
-        
-    }
-    .test-text{
-        display: flex;
-        flex-direction: column;
-    }
-
-  }
