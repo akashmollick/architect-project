@@ -345,3 +345,120 @@
     height: 70px;
     margin: 20px;
 }
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 567px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .after-nav-1 {
+        width: 300px;
+        height: 200px;
+    }
+    .after-nav-1 h2 {
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 50px;
+    }
+    .after-nav {
+        margin: auto;
+        text-align: center;
+        height: 225px;
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .team-image{
+        display: grid;
+        grid-template-columns:2fr;
+        column-gap: 3px;
+        row-gap: 5px;
+    }
+    .team-text{
+        width: 298px;
+        height: 355;
+        
+        margin: auto;
+    }
+    .icon-text h4{
+        width: 360px;
+
+    } 
+    .icon-image {
+        height: 672px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1%;
+        flex-direction: column;
+    }
+    .sp-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+        filter: grayscale(100%);
+        margin-bottom: 5%;
+        flex-direction: column;
+    }
+    .archi-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .archi-text {
+        width: 93%;
+    }
+    .archi-img {
+        position: relative;
+        width: 92%;
+    }
+    .archi-img img {
+        width: 90%;
+        height: 75%;
+        
+        margin-left: 10%;
+        padding-bottom: 35%;
+    }
+    .archi-img button {
+        position: absolute;
+        background-color: #FF900E;
+        width: 155px;
+        height: 79px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        z-index: 4;
+        bottom: 1%;
+    }
+    .testimonials {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 90%;
+        height: 741px;
+        flex-direction: column;
+    }
+    
+   
+    
+  }
